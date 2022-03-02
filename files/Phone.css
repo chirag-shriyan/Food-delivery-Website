@@ -1,0 +1,135 @@
+/* content of navbar and heading */
+
+/* content of navbar */
+.nav{
+    display:flex; 
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar::before{
+       background:url(../images/Food\ image1.jpg) no-repeat center center/cover;
+       content: "";
+       position: absolute;
+       z-index: -1;
+       width: 100% ; 
+       height: 500px ;
+       opacity: 0.7;
+       
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius:30px ;
+    margin: 10px ;
+    position: absolute;
+}
+
+.item{
+       text-decoration: none;  
+       color: white;
+       font-size: 1rem;
+       margin: 0px 10px;
+       top: 100px;
+       position: relative;
+       height: 20px;
+}      
+
+/* content of heading */
+
+ .head h1{
+        font-size: 1.8rem;
+        position: relative;
+        top: 60px;
+ }
+
+ 
+.head p{
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+    position: relative;
+    top: 60px;
+}
+
+.head button{
+    width:100px ;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+}
+
+/* content of section and boxes */
+
+/* content of box */
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    border-radius:60px ;
+    background-color: rgba(128, 128, 128, 0.082);
+    width: 550px;
+    height: 400px;
+    margin: 50px 20px;
+    padding: 10px 0px ;
+}
+
+.box h2{
+    padding: 10px 0px;
+    width: 328px;
+    text-align: center;
+    font-size: 2rem;
+}
+/* Contents of our clients */
+
+ .client-body::before{         
+            background: url(../images/canape\ image.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 1270px;
+            opacity: 0.3;
+            border: 3px solid rgb(51, 51, 51);
+} 
+
+/* Contents of footer */
+
+.footer-body::before{
+         background: url(../images/contact-us.jpg) no-repeat center center/cover; 
+         content: "";      
+         position: absolute;
+         width: 100%;
+         height: 600px;
+         z-index: -1;
+         opacity: 1;
+        margin: 9px 0px;
+}
+
+
+.contact input{
+        margin: 10px 0px;
+        width: 350px;
+        height: 30px;
+        border-radius:10px ;
+        border: 2px solid black;
+
+}
+
+.contact textarea{
+      margin: 10px 0px;
+      border-radius:10px ;
+      width: 350px;
+      border: 2px solid black;
+}
